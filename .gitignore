@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+coverage/
+
+# Environment files
+.env
+.env.local
+
+# Database
+*.sqlite
+*.sqlite-journal
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+*.pdf
+logs/
+*.log
