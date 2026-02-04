@@ -13,7 +13,7 @@ export class Stage1Service {
     @InjectRepository(Job)
     private jobsRepository: Repository<Job>,
     private configService: ConfigService,
-  ) {}
+  ) { }
 
   async publish(data: { ref_post_id: string; channel: string; payload: any }) {
     // Failure simulation

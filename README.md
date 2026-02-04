@@ -49,5 +49,5 @@ curl -X POST http://localhost:3000/api/stage2/schedule \
 
 ### 3. Check Status
 ```bash
-curl http://localhost:3000/api/stage1/posts/POST_ID_HERE
+curl http://localhost:3000/api/stage1/posts/ref/POST_ID_HERE
 ```

@@ -4,7 +4,7 @@ import { PublishPostDto } from './dto/publish-post.dto';
 
 @Controller('stage1')
 export class Stage1Controller {
-  constructor(private readonly stage1Service: Stage1Service) {}
+  constructor(private readonly stage1Service: Stage1Service) { }
 
   @Post('posts')
   async publish(@Body() publishPostDto: PublishPostDto) {
